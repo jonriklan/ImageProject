@@ -1,0 +1,19 @@
+{
+  "name": "mern-todo-api",
+  "version": "1.0.0",
+  "description": "To do list application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Jonathan Riklan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase": "^8.10.1",
+    "firebase-admin": "^12.1.0",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0"
+  }
+}
